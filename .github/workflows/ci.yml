@@ -19,6 +19,7 @@ jobs:
           java-version: '17'
 
       - name: Build and Test
+        working-directory: ./project-folder
         run: |
           mvn clean install
           mvn test
