@@ -45,6 +45,7 @@ public class MathUtilsTest {
 		void testMultiplyNumbers() {
 			assertEquals(6, mathUtils.multiply(2, 3));
 		}
+		
 		@Test
 		@DisplayName("Should divide two numbers")
 		void testDivideNumbers() {
@@ -66,6 +67,7 @@ public class MathUtilsTest {
 			assertTrue(mathUtils.isEven(6));
 			assertTrue(mathUtils.isEven(8));
 			assertTrue(mathUtils.isEven(10));
+			assertTrue(mathUtils.isEven(12));
 		}
 
 		@Test
